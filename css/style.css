@@ -77,3 +77,10 @@ body {
     }
 }
 
+.source-text {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 14px;
+}
