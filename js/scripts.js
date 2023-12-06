@@ -2,16 +2,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const numEyes = getRandomInt(4, 8); // Updated number of eyes between 4 and 8
     const minDistance = 320; // Updated minimum distance between eyes and edges
     const eyes = [];
-
+    
     const backgroundMusic = document.getElementById('backgroundMusic');
-            
+
     document.addEventListener('click', function() {
-        // Play background music on any click
+        // Play background music if it's not playing
         if (backgroundMusic.paused) {
             backgroundMusic.play();
-        } else {
-            backgroundMusic.pause();
-            backgroundMusic.currentTime = 0;
         }
     });
 

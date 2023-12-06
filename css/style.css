@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #422E39;
+    background: #171516;
     overflow: hidden;
 }
 
@@ -40,7 +40,7 @@ body {
     position: absolute;
     height: 7px;
     width: 100%;
-    background-color: #1c1117;
+    background-color: #080707;
     bottom: 10;
     display: none;
     animation-duration: 0.15s; /* Updated animation duration */
@@ -77,8 +77,3 @@ body {
     }
 }
 
-
-
-audio {
-    /* display: none; */
-}
